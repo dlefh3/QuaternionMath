@@ -4,6 +4,4 @@ proj3.o : proj3.cpp quaternion.h
 	g++ -c proj3.cpp
 quaternion.o : quaternion.cpp quaternion.h
 	g++ -c quaternion.cpp
-	
-clean : 
-	-rm *.o
+
